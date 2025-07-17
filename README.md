@@ -36,7 +36,7 @@ This project explores frequent itemsets in supermarket transaction data using cl
 
 ## 🧠 Project Overview
 
-- This is simulated transactional dataset representing items bought by different customers
+- Simulated transactional dataset representing items bought by different customers
 - Converted dataset into one-hot encoded format for compatibility with mining algorithms
 - Performed analysis using the **Apriori algorithm** to generate:
   - Frequent Itemsets
@@ -49,8 +49,8 @@ This project explores frequent itemsets in supermarket transaction data using cl
 
 ## 🧰 Requirements
 
-- Python 3.x
-- Jupyter Notebook
+- python 3.x
+- jupyter notebook
 - `pandas`
 - `mlxtend`
 
