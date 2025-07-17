@@ -9,7 +9,7 @@ This project explores frequent itemsets in supermarket transaction data using cl
 | Member Name | Contribution |
 |-------------|--------------|
 | Samuel      | Data simulation, transaction file generation |
-| Ambacho     | One-hot encoding, CSV handling, README documentation |
+| Ambachow    | One-hot encoding, CSV handling, README documentation |
 | Pual        | Frequent itemsets mining (Apriori algorithm) |
 | Randy       | Closed frequent itemsets interpretation |
 | Justus      | Maximal frequent itemsets generation |
