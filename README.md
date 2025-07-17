@@ -12,7 +12,7 @@ This project explores frequent itemsets in supermarket transaction data using cl
 | Ambachow    | One-hot encoding, CSV handling, README documentation |
 | Paul        | Frequent itemsets mining (Apriori algorithm) |
 | Randy       | Closed frequent itemsets interpretation |
-| Justus      | Maximal frequent itemsets generation |
+| Justice     | Maximal frequent itemsets generation |
 | Gathogo     | CSV file saving and output management |
 
 ---
