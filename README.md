@@ -29,6 +29,8 @@ This project explores frequent itemsets in supermarket transaction data using cl
 | `frequent_itemsets_analysis.ipynb` | Jupyter Notebook containing all code and analysis      |
 | `supermarket_transactions.csv`     | Simulated raw transaction dataset                      |
 | `supermarket_one_hot_encoded.csv`  | One-hot encoded version of the transactions            |
+| `maximal_itemsets.csv`	           | Filtered maximal itemsets                              |
+| `frequent_itemsets.csv`	           | Output of Apriori                                      |
 | `README.md`                        | Project documentation including team contributions     |
 | `.gitignore`                       | Specifies files and folders to be ignored by Git       |
 
