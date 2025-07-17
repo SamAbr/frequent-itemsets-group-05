@@ -1,61 +1,66 @@
-# 🛒 This Shows The Frequent Itemsets Analysis in Supermarket Transactions
+# 🛒 Frequent Itemsets Analysis in Supermarket Transactions
 
 This project explores frequent itemsets in supermarket transaction data using classic data mining techniques. The workflow involves simulating transactions, performing one-hot encoding, and applying algorithms to discover frequent, closed, and maximal itemsets.
 
 ---
 
-## 👥 Each Group Member and Their Responsibility
+## 👥 Group Members and Responsibilities
 
-| Name of Member | Their Contribution |
-|-------------|--------------|
-| Samuel      | Data simulation, transaction file generation |
-| Ambachow    | One-hot encoding, CSV handling, README documentation |
-| Paul        | Frequent itemsets mining (Apriori algorithm) |
-| Randy       | Closed frequent itemsets interpretation |
-| Justice     | Maximal frequent itemsets generation |
-| Gathogo     | CSV file saving and output management |
+| Name       | Contribution                                      |
+|------------|---------------------------------------------------|
+| Samuel     | Data simulation, transaction file generation       |
+| Ambachow   | One-hot encoding, CSV handling, README docs       |
+| Paul       | Frequent itemsets mining (Apriori algorithm)      |
+| Misati     | Closed frequent itemsets interpretation           |
+| Justice    | Maximal frequent itemsets generation              |
+| Gathogo    | CSV file saving and output management             |
 
 ---
 
 ## 📁 File Structure
 
-### Folder Tree
-
-
-### File Descriptions
-
-| File Name                        | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| `frequent_itemsets_analysis.ipynb` | Jupyter Notebook containing all code and analysis      |
-| `supermarket_transactions.csv`     | Simulated raw transaction dataset                      |
-| `supermarket_one_hot_encoded.csv`  | One-hot encoded version of the transactions            |
-| `maximal_itemsets.csv`	           | Filtered maximal itemsets                              |
-| `frequent_itemsets.csv`	           | Output of Apriori                                      |
-| `README.md`                        | Project documentation including team contributions     |
-| `.gitignore`                       | Specifies files and folders to be ignored by Git       |
+| File Name                          | Description                                         |
+|------------------------------------|-----------------------------------------------------|
+| `frequent_itemsets_analysis.ipynb` | Jupyter Notebook with all code and analysis          |
+| `supermarket_transactions.csv`     | Simulated raw transaction dataset                    |
+| `supermarket_one_hot_encoded.csv`  | One-hot encoded version of the transactions          |
+| `frequent_itemsets.csv`            | Output of Apriori frequent itemsets                  |
+| `maximal_frequent_itemsets.csv`    | Maximal frequent itemsets                            |
+| `README.md`                        | Project documentation                               |
 
 ---
 
-## 🧠 The Project Overview
+## 🧠 Project Overview
 
-- Simulated transactional dataset representing items bought by different customers
-- Converted dataset into one-hot encoded format for compatibility with mining algorithms
-- Performed analysis using the **Apriori algorithm** to generate:
+- Simulate a transactional dataset representing items bought by different customers
+- Convert dataset into one-hot encoded format for mining algorithms
+- Analyze using the **Apriori algorithm** to generate:
   - Frequent Itemsets
   - Closed Frequent Itemsets
   - Maximal Frequent Itemsets
-- Interpreted results to understand purchasing patterns
-- Exported cleaned and encoded data to `.csv` for future use
+- Interpret results to understand purchasing patterns
+- Export cleaned and encoded data to `.csv` for future use
 
 ---
 
 ## 🧰 Requirements
 
-- python 3.x
-- jupyter notebook
+- Python 3.x
+- Jupyter Notebook
 - `pandas`
 - `mlxtend`
 
-> All dependencies can be installed via pip:
+Install dependencies with:
 ```bash
 pip install pandas mlxtend
+```
+
+---
+
+## 📤 Outputs
+- `supermarket_transactions.csv`: Simulated transactions
+- `supermarket_one_hot_encoded.csv`: One-hot encoded transactions
+- `frequent_itemsets.csv`: Frequent itemsets
+- `maximal_frequent_itemsets.csv`: Maximal frequent itemsets
+
+---
