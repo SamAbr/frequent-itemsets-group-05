@@ -1,12 +1,12 @@
-# 🛒 Frequent Itemsets Analysis in Supermarket Transactions
+# 🛒 This Shows The Frequent Itemsets Analysis in Supermarket Transactions
 
 This project explores frequent itemsets in supermarket transaction data using classic data mining techniques. The workflow involves simulating transactions, performing one-hot encoding, and applying algorithms to discover frequent, closed, and maximal itemsets.
 
 ---
 
-## 👥 Group Members and Responsibilities
+## 👥 Each Group Member and Their Responsibility
 
-| Member Name | Contribution |
+| Name of Member | Their Contribution |
 |-------------|--------------|
 | Samuel      | Data simulation, transaction file generation |
 | Ambachow    | One-hot encoding, CSV handling, README documentation |
