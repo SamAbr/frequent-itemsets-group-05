@@ -1,4 +1,4 @@
-# DSA2040A Summer Semester Group 5
+# DSA2040A Summer Semester Group 5 Frequent Itemsets
 
 ## Instructions to Run Notebooks
 
