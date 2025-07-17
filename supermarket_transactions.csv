@@ -1,5 +1,4 @@
 Transaction
-"['beef', 'eggs']"
 "['beef', 'butter', 'chocolate', 'soap', 'detergent']"
 "['salt', 'carrots']"
 "['pasta', 'toothpaste', 'detergent', 'bread', 'apples', 'cheese']"
@@ -2999,3 +2998,4 @@ Transaction
 "['pasta', 'rice', 'potatoes']"
 "['butter', 'coffee', 'onions']"
 "['apples', 'salt']"
+"['bananas', 'carrots', 'cereal']"
